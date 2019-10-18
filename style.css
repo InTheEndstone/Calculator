@@ -1,0 +1,145 @@
+.Calculator {
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    width:200px;
+    border: 5px solid #214D5D;
+    border-radius: 5px;
+    margin:auto;
+}
+
+.row1 {
+    background:#49ACD0;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: lightblue;
+    text-align: right;
+    font-size: 50px;
+    height: 80px;
+    padding: 10px 10px 0 0;
+}
+
+.row2 {
+    background: black;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.row2 > div {
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-auto-rows: minmax(50px, auto); 
+}
+
+.seperate {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(50px, auto);
+}
+
+.column1 {
+    background: #59D2FE;
+    grid-column: 1/2;
+    grid-row: 1;
+    border:3px solid black;
+    border-radius: 5px;
+    color: #31738B;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.column1:hover {
+    background: #A4E6FE;
+}
+
+.column1:active {
+    margin:2%;
+}
+
+.column2 {
+    background: #59D2FE;
+    grid-column: 2/3;
+    grid-row: 1;
+    border:3px solid black;
+    border-radius: 5px;
+    color: #31738B;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.column2:hover {
+    background: #A4E6FE;
+}
+
+.column2:active {
+    margin:2%;
+}
+
+.column3 {
+    background: #59D2FE;
+    grid-column: 3/4;
+    grid-row: 1;
+    border:3px solid black;
+    border-radius: 5px;
+    color: #31738B;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.column3:hover {
+    background: #A4E6FE;
+}
+
+.column3:active {
+    margin:2%;
+}
+
+.column4 {
+    background: #59D2FE;
+    grid-column: 4;
+    grid-row: 1;
+    border:3px solid black;
+    border-radius: 5px;
+    color: #31738B;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.column4:hover {
+    background: #A4E6FE;
+}
+
+.column4:active {
+    margin:2%;
+}
+
+.row3 {
+    background:black;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.row4 {
+    background:black;
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.row5 {
+    background:black;
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+.row6 {
+    background:black;
+    grid-column: 1/2;
+    grid-row: 6/7;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.row6 > div {
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-auto-rows: minmax(50px, auto); 
+}
